@@ -53,6 +53,7 @@ end
 #####################################################
 
 def runner
-  welc
+  welcome 
+  initial_round
 end
     
