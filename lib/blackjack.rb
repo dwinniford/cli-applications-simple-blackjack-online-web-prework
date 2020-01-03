@@ -40,7 +40,6 @@ def hit?(num)
     return total 
   elsif !(input == "s" && input == "h")
     invalid_command
-    prompt_user
     hit?(num)
   end 
 end
