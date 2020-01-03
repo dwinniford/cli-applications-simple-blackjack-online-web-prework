@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  rand(0..12)
+  rand(0..11)
 end
 
 def display_card_total
