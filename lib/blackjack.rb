@@ -38,7 +38,7 @@ def hit?(num)
   elsif input == "h"
     total += deal_card
     return total 
-  elsif input == "s" && input == "h"
+  elsif (input == "s" && input == "h")!
     invalid_command
     prompt_user
   end 
