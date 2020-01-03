@@ -32,7 +32,7 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  display_card_total(num)
+  num
 end
 
 def invalid_command
