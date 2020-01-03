@@ -34,7 +34,7 @@ def hit?
 end
 
 def invalid_command
-  p "PLease enter a valid command"
+  puts "PLease enter a valid command"
 end
 
 #####################################################
